@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import profilePicture from "./assets/profile-picture.jpg";  // Adjust the path if necessary
 
 function App() {
   return (
@@ -17,25 +18,25 @@ function App() {
       <main>
         <section className="profile">
           <img 
-            src="your-profile-picture-url-here.jpg" 
+            src={profilePicture}
             alt="Yazan Mash'Al" 
             className="profile-picture"
           />
           <h1>Yazan Mash'Al</h1>
           <div className="social-icons">
-            <a href="https://linkedin.com/in/your-profile" className="social-icon">
+            <a href="https://www.linkedin.com/in/yazan-mash-al-236a88220/" className="social-icon">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="https://github.com/your-profile" className="social-icon">
+            <a href="https://github.com/yazanmashal03" className="social-icon">
               <i className="fab fa-github"></i>
             </a>
-            <a href="https://medium.com/@your-profile" className="social-icon">
+            <a href="https://medium.com/@YazanMashal" className="social-icon">
               <i className="fab fa-medium"></i>
             </a>
-            <a href="https://www.kaggle.com/your-profile" className="social-icon">
+            <a href="https://www.kaggle.com/yazanmashal" className="social-icon">
               <i className="fab fa-kaggle"></i>
             </a>
-            <a href="https://twitter.com/your-profile" className="social-icon">
+            <a href="https://twitter.com/yazanmashal03" className="social-icon">
               <i className="fab fa-twitter"></i>
             </a>
           </div>

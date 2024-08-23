@@ -1,60 +1,34 @@
 import React from "react";
 import "./App.css";
-import profilePicture from "./assets/profile-picture.jpg";  // Adjust the path if necessary
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import About from './About'; // Import the About component
+import ProjectList from './ProjectList'; // Import the ProjectList component
+import ResearchList from './ResearchList'; // Import the ResearchList component
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <nav>
-          <ul>
-            <li><a href="#about">ABOUT ME</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#projects">PROJECTS</a></li>
-            <li><a href="#research">RESEARCH</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section className="profile">
-          <img 
-            src={profilePicture}
-            alt="Yazan Mash'Al" 
-            className="profile-picture"
-          />
-          <h1>Yazan Mash'Al</h1>
-          <div className="social-icons">
-            <a href="https://www.linkedin.com/in/yazan-mash-al-236a88220/" className="social-icon">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/yazanmashal03" className="social-icon">
-              <i className="fab fa-github"></i>
-            </a>
-            <a href="https://medium.com/@YazanMashal" className="social-icon">
-              <i className="fab fa-medium"></i>
-            </a>
-            <a href="https://www.kaggle.com/yazanmashal" className="social-icon">
-              <i className="fab fa-kaggle"></i>
-            </a>
-            <a href="https://twitter.com/yazanmashal03" className="social-icon">
-              <i className="fab fa-twitter"></i>
-            </a>
-          </div>
-          <p>Hi, I'm Yazan!</p>
-          <p>
-            I love the beauty of mathematics and exploring how it can be applied
-            within technology and online products.
-          </p>
-          <p>
-            In addition to that, I'm also an aspiring scientist, who hopes to join a PhD program. My research interests revolve around AI/ML.
-          </p>
-          <p>
-            Besides technology, I'm also interested in finance & economy, fitness & health, psychology, and philosophy.
-            In general, I strive to become the best version of myself and to keep learning about the complex mechanisms of our own nature and the world that surrounds us so that I can make my fair contribution to the improvement of the human experience.
-          </p>
-        </section>
-      </main>
-    </div>
+    <Router>
+      <div className="App">
+        <header>
+          <nav>
+            <ul>
+              <li><Link to="/">ABOUT ME</Link></li>
+              <li><a href="https://drive.google.com/file/d/1Mlfr_KbL_AD4qZYiWwb69sluDAbD1dKB/view" target="_blank" rel="noopener noreferrer">CV</a></li>
+              <li><Link to="/projects">PROJECTS</Link></li>
+              <li><Link to="/research">RESEARCH</Link></li>
+            </ul>
+          </nav>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/projects" element={<ProjectList />} />
+            <Route path="/research" element={<ResearchList />} />
+            {/* Add more routes as needed */}
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
 }
 

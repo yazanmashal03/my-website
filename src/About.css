@@ -1,0 +1,91 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Updated to Roboto */
+  color: #333;
+  line-height: 1.8;
+  background-color: #ffffff; /* Assuming a white background based on the image */
+}
+
+header {
+  padding: 30px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px; /* Increased font size */
+  text-transform: uppercase;
+}
+
+.profile {
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 48px; /* Increased font size for the name */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.social-icons {
+  margin: 30px 0; /* Increased margin for better spacing */
+}
+
+.social-icons a {
+  margin: 0 15px; /* Increased margin between icons */
+  color: #6366f1; /* Light blue color for social icons */
+  font-size: 28px; /* Increased icon size */
+  text-decoration: none;
+}
+
+.social-icons i {
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: #4338ca;
+}
+
+p {
+  max-width: 800px; /* Increased max width for larger text blocks */
+  margin: 20px auto; /* Increased margin for spacing */
+  font-size: 20px; /* Increased font size for better readability */
+  color: #4a4a4a;
+  line-height: 2;
+  text-align: left; /* Align text to the left */
+}
+
+p:first-of-type {
+  font-weight: bold;
+  font-size: 24px; /* Increased the font size for the first paragraph */
+  margin-top: 40px; /* Added margin at the top of the first paragraph */
+}

@@ -12,7 +12,7 @@ function App() {
         <header>
           <nav>
             <ul>
-              <li><Link to="/">ABOUT ME</Link></li>
+              <li><Link to="/my-website">ABOUT ME</Link></li>
               <li><a href="https://drive.google.com/file/d/1Mlfr_KbL_AD4qZYiWwb69sluDAbD1dKB/view" target="_blank" rel="noopener noreferrer">CV</a></li>
               <li><Link to="/projects">PROJECTS</Link></li>
               <li><Link to="/research">RESEARCH</Link></li>
@@ -21,7 +21,7 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route path="/my-website" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/projects" element={<ProjectList />} />
             <Route path="/research" element={<ResearchList />} />
             {/* Add more routes as needed */}

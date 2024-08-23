@@ -1,0 +1,81 @@
+.project-card {
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    max-width: 550px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .tags {
+    margin: 10px 0;
+  }
+  
+  .tag {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+
+  /* Apply white color only to the project description */
+.project-description {
+  color: white; /* Ensuring only the description text is white */
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+  
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  
+  .project-card-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .project-card-button button {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-card-button button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  

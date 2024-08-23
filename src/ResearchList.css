@@ -1,0 +1,11 @@
+.research-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .research-item {
+    width: 48%;
+  }
+  

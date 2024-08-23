@@ -29,14 +29,14 @@ function About() {
         </a>
       </div>
       <p>Hi, I'm Yazan!</p>
-      <p>
+      <p className="about-text">
         I love the beauty of mathematics and exploring how it can be applied
         within technology and online products.
       </p>
-      <p>
+      <p className="about-text">
         In addition to that, I'm also an aspiring scientist, who hopes to join a PhD program. My research interests revolve around AI/ML.
       </p>
-      <p>
+      <p className="about-text">
         Besides technology, I'm also interested in finance & economy, fitness & health, psychology, and philosophy.
         In general, I strive to become the best version of myself and to keep learning about the complex mechanisms of our own nature and the world that surrounds us so that I can make my fair contribution to the improvement of the human experience.
       </p>

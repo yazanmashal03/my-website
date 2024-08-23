@@ -76,7 +76,7 @@ h1 {
 }
 
 p {
-  max-width: 800px; /* Increased max width for larger text blocks */
+  max-width: 900px; /* Increased max width for larger text blocks */
   margin: 20px auto; /* Increased margin for spacing */
   font-size: 20px; /* Increased font size for better readability */
   color: #4a4a4a;
@@ -88,4 +88,13 @@ p:first-of-type {
   font-weight: bold;
   font-size: 24px; /* Increased the font size for the first paragraph */
   margin-top: 40px; /* Added margin at the top of the first paragraph */
+}
+
+.about-text {
+  max-width: 900px; /* Increased max width for larger text blocks */
+  margin: 20px auto; /* Centered and spaced out */
+  font-size: 20px; /* Adjust this to the desired size */
+  color: #4a4a4a;
+  line-height: 2;
+  text-align: left;
 }

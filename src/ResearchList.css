@@ -1,11 +1,55 @@
 .research-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  .research-item {
-    width: 48%;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  align-items: center;    /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  padding: 20px;
+}
+
+.research-item {
+  width: 60%; /* Adjust the width to control the size of each item */
+  max-width: 800px; /* Optional: Set a max-width to prevent the items from becoming too wide */
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+
+.research-item h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tags {
+  margin-bottom: 10px;
+}
+
+.tag {
+  background-color: #ddd;
+  color: #555;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+.research-item p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.links a {
+  margin-right: 20px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}

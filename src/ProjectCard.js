@@ -5,7 +5,7 @@ function ProjectCard({ title, description, imageUrl, tags, backgroundColor, link
   return (
     <div className="project-card" style={{ backgroundColor }}>
       <div className="project-card-content">
-        <h2>{title}</h2>
+        <h2 className="project-title">{title}</h2>
         <div className="tags">
           {tags.map((tag, index) => (
             <span key={index} className="tag">{tag}</span>

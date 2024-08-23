@@ -21,7 +21,7 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route path="/" element={<About />} />
+            <Route path="/my-website" element={<About />} />
             <Route path="/projects" element={<ProjectList />} />
             <Route path="/research" element={<ResearchList />} />
             {/* Add more routes as needed */}

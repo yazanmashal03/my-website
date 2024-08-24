@@ -7,7 +7,7 @@ import ResearchList from './ResearchList'; // Import the ResearchList component
 
 function App() {
   return (
-    <Router basename="/my-website">
+    <Router>
       <div className="App">
         <header>
           <nav>

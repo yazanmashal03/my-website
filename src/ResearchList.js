@@ -5,7 +5,7 @@ import './ResearchList.css';
 function ResearchList() {
   const researchItems = [
     {
-      title: "Gradient Descent with Random Minibatches",
+      title: "Gradient Descent with random minibatches",
       description: "This thesis explores the dynamics and convergence properties of gradient descent algorithms when integrated with random minibatch.",
       tags: ["Grade: 9/10", "Bachelor Thesis"],
       paperLink: "https://essay.utwente.nl/100665/", // Replace with actual link
@@ -26,7 +26,7 @@ function ResearchList() {
         codeLink: "" // Replace with actual link
     },
     {
-        title: "Statistical Analysis of the Poverty Index",
+        title: "Statistical analysis of the poverty index",
         description: "Levareged tools of statistical analysis to draw several important conclusions from the Poverty Index provided by the United Nations Data website.",
         tags: ["Grade: 9.5/10", "Best Grade", "R"],
         paperLink: "https://drive.google.com/file/d/1hdskYpqbOcW-UjXvUKOZeBsUe7nqk_XS/view", // Replace with actual link
@@ -40,21 +40,21 @@ function ResearchList() {
         codeLink: "" // Replace with actual link
     },
     {
-        title: "Photograph management for Shotmaniacs",
+        title: "Photography management system for Shotmaniacs",
         description: "Shotmaniacs is a photography company based in Enschede that specializes in photography for events. However, they required a system that facilitates their schedule and clients..",
         tags: ["REST", "Java"],
         paperLink: "", // Replace with actual link
         codeLink: "" // Replace with actual link
     },
     {
-        title: "Reading products' ingredients with bar scanner",
+        title: "Reading a product's ingredients with a bar scanner",
         description: "Developed an application that queries the OpenFoodFact API and searches the ingredients of a product based on scanning its barcode..",
         tags: ["Raspberry Pi", "Java"],
         paperLink: "", // Replace with actual link
         codeLink: "" // Replace with actual link
     },
     {
-        title: "Application system to automate plan water",
+        title: "Application system to automate a plant's watering schedule",
         description: "Developed an application that automates the process of watering plants by using a Raspberry Pi and a moisture sensor.",
         tags: ["Grade: 8/10"],
         paperLink: "", // Replace with actual link
